@@ -38,6 +38,4 @@ This allows you to "release" parts of the memory you don't need anymore (because
 
 Notes:
 ./a.out &		> to run a programme in the background
-top				> to check the status of your programmes
-
-Screen Shot 2019-07-24 at 9.00.32 PM
+top			> to check the status of your programmes
