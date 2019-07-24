@@ -39,3 +39,29 @@ This allows you to "release" parts of the memory you don't need anymore (because
 Notes:
 ./a.out &		> to run a programme in the background
 top			> to check the status of your programmes
+
+EX01 SO FAR | NOT DONE
+
+#include <stdlib.h>
+#include <stdio.h>
+
+int		ft_range(int min, int max)
+{
+	int *result;
+
+	if (!(result = (int*)malloc(sizeof(*result) * (max - min))));
+		return (0);
+
+
+}
+
+int		main(void)
+{
+	int min;
+	int max;
+
+	min = -2147483648;
+	max = 2147483647;
+	printf("%i\n", ft_range(min, max));
+	return (0);
+}
