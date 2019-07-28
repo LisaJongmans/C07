@@ -38,7 +38,6 @@ char	*ft_strdup(char *src)
 	if (!(dest = (char*)malloc(sizeof(*src) * (i + 1))))
 		return (0);
 	dest = ft_strcpy(dest, src);
-	free(dest);
 	return (dest);
 }
 
